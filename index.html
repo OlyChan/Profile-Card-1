@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <article data-testid="test-profile-card" class="profile-card">
+        <figure class="profile-avatar">
+          <img
+            src="./image/OLY.jpg"
+            alt="Profile photo of Chinenye Njoku"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+
+        <div class="profile-info">
+          <header>
+            <h2 data-testid="test-user-name">Chinenye Njoku</h2>
+          </header>
+
+          <p data-testid="test-user-bio">
+            A frontend enthusiast passionate about crafting beautiful,
+            accessible, and meaningful web experiences.
+          </p>
+
+          <p class="time" data-testid="test-user-time" id="user-time"></p>
+
+          <nav data-testid="test-user-social-links" class="social-links">
+            <ul>
+              <li>
+                <a
+                  data-testid="test-user-social-twitter"
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  data-testid="test-user-social-linkedin"
+                  href="https://linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  data-testid="test-user-social-github"
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <section class="interest-section">
+            <div data-testid="test-user-hobbies">
+              <h3>Hobbies</h3>
+              <ul>
+                <li>Reading novels</li>
+                <li>Coding</li>
+                <li>Gaming</li>
+              </ul>
+            </div>
+            <div data-testid="test-user-dislikes">
+              <h3>Dislikes</h3>
+              <ul>
+                <li>Negativity</li>
+                <li>Procrastination</li>
+                <li>MTN</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
