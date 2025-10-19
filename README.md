@@ -20,5 +20,10 @@ Tech Stack
 - CSS3 — Modern, responsive layout  
 - JavaScript — To render current time dynamically  
 
-How to Run Locally
-Visit: profile-card-1-gyx01v59j-olychans-projects.vercel.app
+How to Run
+Option 1 — Live Demo
+Visit the hosted version here:  
+https://profile-card-1-gyx01v59j-olychans-projects.vercel.app
+
+Option 2 — Run Locally
+Clone this repository
