@@ -126,7 +126,7 @@ main {
     flex: 1;
 }
 
-/* RESPONSIVE DESIGN */
+
 @media (min-width: 700px) {
   .profile-card {
     flex-direction: row;
