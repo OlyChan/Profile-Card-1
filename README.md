@@ -15,6 +15,26 @@ Features
 - Responsive design for mobile, tablet, and desktop
 - Keyboard-friendly navigation and visible focus styles
 
+  *UPDATED
+ Profile Card Update - Stage 1
+- Added a Contact me page with form validation
+- Also added an about me page with five sections
+
+  Contact Me Page Features
+- Full Name
+- Email
+- Subject
+- Message
+- Submit Button
+Each with their respective data-testids
+
+  About Me Page Features
+- Bio
+- Goals in this program
+- Areas  of Low Confidence
+- Note to Future self
+- Extra thoughts
+
 Tech Stack
 - HTML5 — Semantic structure  
 - CSS3 — Modern, responsive layout  
