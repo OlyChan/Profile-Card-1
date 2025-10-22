@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -38,6 +40,7 @@ main {
 
 .profile-avatar {
   display: flex;
+  /* margin: auto; */
   justify-content: center;
   background: linear-gradient(135deg, #6c63ff, #a29bfe);
   padding: 2rem;
@@ -50,7 +53,22 @@ main {
   border: 4px solid #fff;
   object-fit: cover;
 }
-
+.personal-details {
+  text-align: center;
+  margin-top: 2rem;
+}
+.personal-details a {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.7rem;
+  border: 2px solid;
+  background: #6c63ff;
+  color: #f1f1f9;
+  border-radius: 10px;
+}
+.personal-details a:hover {
+  background: #a29bfe;
+}
 .profile-info {
   padding: 1.5rem;
 }
@@ -119,13 +137,12 @@ main {
   margin-bottom: 0.4rem;
   font-size: 0.9rem;
 }
-.hobbies{
-    flex: 1;
+.hobbies {
+  flex: 1;
 }
-.dislikes{
-    flex: 1;
+.dislikes {
+  flex: 1;
 }
-
 
 @media (min-width: 700px) {
   .profile-card {
@@ -139,9 +156,9 @@ main {
     align-items: flex-start;
     max-width: 700px;
   }
-  .avatar {
+  /* .avatar {
     flex: 1;
-  }
+  } */
   .profile-card header,
   .profile-card section,
   .profile-card nav {
